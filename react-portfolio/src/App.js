@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Aboutme';
+import Navbar from './components/Navbar';
 import AboutMe from './components/Aboutme';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
@@ -14,9 +14,9 @@ function App() {
     <div>
       <Navbar />
       <AboutMe />
-      <Portfolio />
+      {/* <Portfolio />
       <Resume />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </div>
   );

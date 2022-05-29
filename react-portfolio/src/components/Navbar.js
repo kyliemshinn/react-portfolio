@@ -1,27 +1,35 @@
-import React from 'react';
-
-const styles = {
-    card: {
-      margin: 20,
-      background: '#e8eaf6',
-    },
-    heading: {
-      background: '#9a74db',
-      minHeight: 50,
-      lineHeight: 3.5,
-      fontSize: '1.2rem',
-      color: 'white',
-      padding: '0 20px',
-    },
-  };
-
+import React from "react";
 
 function Navbar() {
-    return (
-      <div style={styles.card}>
-        <div style={styles.heading}>Home</div>
-      </div>
-    );
-  }
+  return (
+    <div id="navBar">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="./components/Aboutme">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./components/Portfolio">
+            Portfolio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./components/Resume">
+            Resume
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./components/Contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+}
 
 export default Navbar;
