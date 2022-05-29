@@ -3,7 +3,7 @@ import "../style.css";
 
 function Footer() {
   return (
-    <nav className="navbar fixed-bottom navbar-light">
+    <nav className="navbar navbar-light">
       <div className="container-fluid ksfooter">
       <p className="navbar-brand">Kylie Shinn Web Portfolio ©</p>
       </div>
