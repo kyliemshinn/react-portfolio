@@ -3,27 +3,27 @@ import React from "react";
 function Navbar() {
   return (
     <div id="navBar">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
+      <ul className="nav justify-content-end">
+        <li className="nav-item">
           <a
-            class="nav-link active"
+            className="nav-link active"
             aria-current="page"
             href="./components/Aboutme">
             About Me
           </a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a class="nav-link" href="./components/Portfolio">
             Portfolio
           </a>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <a class="nav-link" href="./components/Resume">
             Resume
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./components/Contact">
+        <li className="nav-item">
+          <a className="nav-link" href="./components/Contact">
             Contact
           </a>
         </li>
