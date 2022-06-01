@@ -1,9 +1,14 @@
 import React from "react";
+import Logo from "../images/kslogo.png"
 
 function Navbar() {
   return (
     <div id="navBar">
-    {/* add logo here */}
+       {/* <img
+            src={Logo}
+            className="logo"
+            alt="Logo"
+          ></img> */}
       <ul className="nav justify-content-end">
         <li className="nav-item">
           <a
