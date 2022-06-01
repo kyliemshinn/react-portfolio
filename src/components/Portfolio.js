@@ -1,10 +1,10 @@
 import React from "react";
 import Gitpro from "../images/gitpro.PNG";
 import Pethub from "../images/Capture.PNG";
-import EmpManage from "../images/empmanage.png"
-import WeatherIcon from "../images/weathericon.jpg"
-import ReadmeIcon from "../images/readmeicon.webp"
-import DayPlanner from "../images/dayplanner.jpg"
+import EmpManage from "../images/empmanage.png";
+import WeatherIcon from "../images/weathericon.jpg";
+import ReadmeIcon from "../images/readmeicon.webp";
+import DayPlanner from "../images/dayplanner.jpg";
 import "../style.css";
 
 const styles = {
@@ -25,14 +25,17 @@ function Portfolio() {
         <div className="card-body">
           <h5 className="card-title">Git Productive</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Git Productive is an innovative web application that is designed to
+            help developers with the organization of their day. It is made for
+            time management and project management of projects, where the user
+            can track the amount of time spent on a project and keep code
+            snippets for later use.
           </p>
           <h6>Skills Used:</h6>
           <p>
-            NodeJS | Tailwind CSS | Google Fonts | daisyUI | AnimeJS | MySQL | Sequelize |
-            Handlebars | Bcrypt | Connect-Session-Sequelize | Express | Express-Session |
-            dotenv
+            NodeJS | Tailwind CSS | Google Fonts | daisyUI | AnimeJS | MySQL |
+            Sequelize | Handlebars | Bcrypt | Connect-Session-Sequelize |
+            Express | Express-Session | dotenv | CSS | Javascript
           </p>
           <a
             style={styles.buttons}
@@ -49,14 +52,16 @@ function Portfolio() {
         <div className="card-body">
           <h5 className="card-title">PetHub</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Pethub is a web app for anyone interested in responsibly adopting a
+            pet. On our webapp you can find pets in all areas to adopt. Even if
+            you do not want to make the committment yet in adopting an animal,
+            but still want to contribute to animals in need, we have a charity
+            page that brings you to charities in all locations.
           </p>
           <h6>Skills Used:</h6>
           <p>
-            NodeJS | Tailwind CSS | Google Fonts | daisyUI | AnimeJS | MySQL | Sequelize |
-            Handlebars | Bcrypt | Connect-Session-Sequelize | Express | Express-Session |
-            dotenv
+            HTML | CSS | Tailwind CSS | Javascript | daisyUI | AniJS | PetFinder
+            API | TheDogAPI |CharityNavigator API | ScrollRevealJS
           </p>
           <a
             style={styles.buttons}
@@ -69,7 +74,11 @@ function Portfolio() {
       </div>
 
       <div className="card projectCard" style={styles.cards}>
-        <img src={EmpManage} class="card-img-top project-image" alt="Employee Management"></img>
+        <img
+          src={EmpManage}
+          class="card-img-top project-image"
+          alt="Employee Management"
+        ></img>
         <div className="card-body">
           <h5 className="card-title">Employee Management System</h5>
           <p className="card-text">
@@ -78,9 +87,7 @@ function Portfolio() {
           </p>
           <h6>Skills Used:</h6>
           <p>
-            NodeJS | Tailwind CSS | Google Fonts | daisyUI | AnimeJS | MySQL | Sequelize |
-            Handlebars | Bcrypt | Connect-Session-Sequelize | Express | Express-Session |
-            dotenv
+            NodeJS | Javascript | MySQL | console.table | Inquirer
           </p>
           <a
             style={styles.buttons}
@@ -93,18 +100,23 @@ function Portfolio() {
       </div>
 
       <div className="card projectCard" style={styles.cards}>
-        <img src={WeatherIcon} class="card-img-top project-image" alt="Weather Icon"></img>
+        <img
+          src={WeatherIcon}
+          class="card-img-top project-image"
+          alt="Weather Icon"
+        ></img>
         <div className="card-body">
           <h5 className="card-title">Weather Dashboard</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Weather Dashboard is a weather app that displays the current and
+            forecasted weather for a given city. You will input the city on the
+            side input bar. The page will populate the weather in a main card of
+            the current weather and then 5 smaller forecast cards for the next 5
+            days.
           </p>
           <h6>Skills Used:</h6>
           <p>
-            NodeJS | Tailwind CSS | Google Fonts | daisyUI | AnimeJS | MySQL | Sequelize |
-            Handlebars | Bcrypt | Connect-Session-Sequelize | Express | Express-Session |
-            dotenv
+           HTML | CSS | JavaScript
           </p>
           <a
             style={styles.buttons}
@@ -117,19 +129,22 @@ function Portfolio() {
       </div>
 
       <div className="card projectCard" style={styles.cards}>
-        <img src={ReadmeIcon} class="card-img-top project-image" alt="ReadMe Icon"></img>
+        <img
+          src={ReadmeIcon}
+          class="card-img-top project-image"
+          alt="ReadMe Icon"
+        ></img>
         <div className="card-body">
           <h5 className="card-title">README Generator</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            README Generator is used to create a pre-structured README for a
+            project. The user will put in the listed features that are presented
+            on a typical README, fill them out according to the project that it
+            is being generated for. Onced all the sections have been filled out,
+            the README will generate on a seperate file for use.
           </p>
           <h6>Skills Used:</h6>
-          <p>
-            NodeJS | Tailwind CSS | Google Fonts | daisyUI | AnimeJS | MySQL | Sequelize |
-            Handlebars | Bcrypt | Connect-Session-Sequelize | Express | Express-Session |
-            dotenv
-          </p>
+          <p>NodeJS | Javascript | Inquirer | Node File System |</p>
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/readme-generator"
@@ -141,19 +156,21 @@ function Portfolio() {
       </div>
 
       <div className="card projectCard" style={styles.cards}>
-        <img src={DayPlanner} class="card-img-top project-image" alt="Day Planner Logo"></img>
+        <img
+          src={DayPlanner}
+          class="card-img-top project-image"
+          alt="Day Planner Logo"
+        ></img>
         <div className="card-body">
           <h5 className="card-title">Day Planner</h5>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            This work day scheduler app is designed to let the user add and a
+            daily schedule that presents the date and time to show what day the
+            schedule is on. This color coordinated day planner is used strictly
+            with front end languages and tools.
           </p>
           <h6>Skills Used:</h6>
-          <p>
-            NodeJS | Tailwind CSS | Google Fonts | daisyUI | AnimeJS | MySQL | Sequelize |
-            Handlebars | Bcrypt | Connect-Session-Sequelize | Express | Express-Session |
-            dotenv
-          </p>
+          <p>HTML | CSS | Javascript</p>
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/Work-day-scheduler"
