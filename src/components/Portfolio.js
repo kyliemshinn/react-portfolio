@@ -21,7 +21,7 @@ function Portfolio() {
   return (
     <div id="portfolioCards">
       <div className="card projectCard" style={styles.cards}>
-        <img src={Gitpro} class="card-img-top project-image" alt="GitPro"></img>
+        <img src={Gitpro} className="card-img-top project-image" alt="GitPro"></img>
         <div className="card-body">
           <h3 className="card-title">Git Productive</h3>
           <p className="card-text">
@@ -40,7 +40,7 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/git-productive"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Check It Out!
           </a>
@@ -48,7 +48,7 @@ function Portfolio() {
       </div>
 
       <div className="card projectCard" style={styles.cards}>
-        <img src={Pethub} class="card-img-top project-image" alt="Pethub"></img>
+        <img src={Pethub} className="card-img-top project-image" alt="Pethub"></img>
         <div className="card-body">
           <h3 className="card-title">PetHub</h3>
           <p className="card-text">
@@ -66,7 +66,7 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/pethub"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Check It Out!
           </a>
@@ -76,7 +76,7 @@ function Portfolio() {
       <div className="card projectCard" style={styles.cards}>
         <img
           src={EmpManage}
-          class="card-img-top project-image"
+          className="card-img-top project-image"
           alt="Employee Management"
         ></img>
         <div className="card-body">
@@ -92,7 +92,7 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/employee-tracker"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Check It Out!
           </a>
@@ -102,7 +102,7 @@ function Portfolio() {
       <div className="card projectCard" style={styles.cards}>
         <img
           src={WeatherIcon}
-          class="card-img-top project-image"
+          className="card-img-top project-image"
           alt="Weather Icon"
         ></img>
         <div className="card-body">
@@ -121,7 +121,7 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/weather-dashboard"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Check It Out!
           </a>
@@ -131,7 +131,7 @@ function Portfolio() {
       <div className="card projectCard" style={styles.cards}>
         <img
           src={ReadmeIcon}
-          class="card-img-top project-image"
+          className="card-img-top project-image"
           alt="ReadMe Icon"
         ></img>
         <div className="card-body">
@@ -148,7 +148,7 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/readme-generator"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Check It Out!
           </a>
@@ -158,7 +158,7 @@ function Portfolio() {
       <div className="card projectCard" style={styles.cards}>
         <img
           src={DayPlanner}
-          class="card-img-top project-image"
+          className="card-img-top project-image"
           alt="Day Planner Logo"
         ></img>
         <div className="card-body">
@@ -174,7 +174,7 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/Work-day-scheduler"
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Check It Out!
           </a>

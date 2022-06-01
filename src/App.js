@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './style.css';
 
 //may need to link css sheet
 

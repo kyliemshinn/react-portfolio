@@ -38,7 +38,7 @@ function Aboutme() {
          of troubleshooting and enhancing legacy code. I look forward to
            hearing from you!
            </p>
-            <p className="bio">
+            <div className="bio">
               <span className="skills">
                 Some Skills Include:
               </span>
@@ -52,7 +52,7 @@ function Aboutme() {
                 <li>MySQL</li>
                 <li>MERN Stack</li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
       </div>

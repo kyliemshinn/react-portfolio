@@ -19,12 +19,12 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item">
-          <a class="nav-link link-info" href="./components/Portfolio">
+          <a className="nav-link link-info" href="./components/Portfolio">
             Portfolio
           </a>
         </li>
         <li className="nav-item">
-          <a class="nav-link link-info" href="./components/Resume">
+          <a className="nav-link link-info" href="./components/Resume">
             Resume
           </a>
         </li>

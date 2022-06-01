@@ -12,8 +12,8 @@
 }
 
 /* styling for About Section */
-.about{
-   height: 100vh;
+.about {
+  height: 100vh;
 }
 
 .about-title {
@@ -30,7 +30,6 @@
   margin-top: 10vh;
   margin-bottom: 10vh;
   width: 40vh;
-  /* height: 40vh; */
 }
 
 .bioText {
@@ -57,7 +56,6 @@
   padding: 10px;
   text-align: center;
   list-style-type: none;
-  
 }
 /* portfolio styling */
 #portfolioCards {
@@ -67,7 +65,6 @@
 }
 
 .projectCard {
-  /* styling class thats on all cards */
   display: block;
   margin: 0 auto;
   margin-top: 15px;
@@ -81,10 +78,8 @@
 
 /* resume stylings */
 #resumeLink {
-  /* text-decoration: none; */
   color: rgb(248, 213, 245);
   font-weight: bold;
-
 }
 
 /* contact list styling */
@@ -95,10 +90,9 @@
 }
 
 /* footer styling */
-.ksfooter {
+.footer {
   margin: 50px;
-  background-color: #e6d4e6;
+  width: 100%;
 }
-
 
 /* add drop down for menu at specific breakpoint */
