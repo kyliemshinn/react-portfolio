@@ -54,7 +54,13 @@
   
 }
 
+/* resume stylings */
+#resumeLink {
+  /* text-decoration: none; */
+  color: rgb(248, 213, 245);
+  font-weight: bold;
 
+}
 
 /* contact list styling */
 .link-info {
