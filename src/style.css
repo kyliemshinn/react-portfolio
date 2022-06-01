@@ -3,21 +3,65 @@
   font-size: medium;
 }
 
+
+
+/* styling for About Section */
+.about{
+   height: 100vh;
+}
+.about-title {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+}
+.about-bg {
+  background-color: #d5a2d3;
+  text-align: center;
+}
+
+.about-photo {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  width: 65vh;
+}
+
+
+.bioText {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.bio {
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  font-size: medium;
+}
+
+.skills {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.skillList {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+  
+}
+
+
+
+/* contact list styling */
 .link-info {
   font-size: large;
   color: black;
 }
 
-.aboutMe {
-  display: flex;
-  flex-wrap: wrap;
-
-  border: white;
-  height: 100vh;
-  width: 50vw;
-  padding: 15px;
-}
-
+/* footer styling */
 .ksfooter {
   margin: 50px;
   background-color: white;
