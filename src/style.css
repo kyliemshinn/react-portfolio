@@ -2,7 +2,8 @@
 #navBar {
   margin: 50px;
   font-size: medium;
-  border-bottom: 2px #d5a2d3;
+  background-color: #e6d4e6;
+  padding: 35px;
 }
 
 .logo {
@@ -14,6 +15,7 @@
 .about{
    height: 100vh;
 }
+
 .about-title {
   text-align: center;
   font-size: 50px;
@@ -61,6 +63,7 @@
 #portfolioCards {
   background-color: #e6d4e6;
   padding: 8px;
+  font-size: large;
 }
 
 .projectCard {
@@ -94,5 +97,8 @@
 /* footer styling */
 .ksfooter {
   margin: 50px;
-  background-color: white;
+  background-color: #e6d4e6;
 }
+
+
+/* add drop down for menu at specific breakpoint */

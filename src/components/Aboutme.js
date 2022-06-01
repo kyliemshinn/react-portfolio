@@ -13,7 +13,7 @@ function Aboutme() {
             alt="Me"
           ></img>
         </div>
-        <div className="col-md">
+        <div className="col-md bio-card">
           <h3 className="about-title mt-4">
             KYLIE SHINN
           </h3>
@@ -51,9 +51,6 @@ function Aboutme() {
                 <li>ExpressJS</li>
                 <li>MySQL</li>
                 <li>MERN Stack</li>
-                <li>Project Management</li>
-                <li>Collaboration/Teamwork</li>
-                <li>Leadership</li>
               </ul>
             </p>
           </div>
