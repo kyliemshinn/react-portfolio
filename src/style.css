@@ -20,9 +20,10 @@
 }
 
 .about-photo {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
-  width: 65vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 40vh;
+  /* height: 40vh; */
 }
 
 

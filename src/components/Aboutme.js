@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "../images/backgroundgold.jpg";
+import Photo from "../images/kylieclyde.jpg"
 import "../style.css";
 
 function Aboutme() {
@@ -8,13 +8,13 @@ function Aboutme() {
       <div className="row">
         <div className="col-md about-bg">
           <img
-            src={Background}
+            src={Photo}
             className="about-photo img-fluid"
             alt="Me"
           ></img>
         </div>
         <div className="col-md">
-          <h3 className="about-title">
+          <h3 className="about-title mt-4">
             KYLIE SHINN
           </h3>
           <h4 className="about-title">Full Stack Web Developer</h4>
