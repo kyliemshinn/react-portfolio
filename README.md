@@ -60,8 +60,8 @@ Bootstrap
 
 Kylie Shinn
 
-Github: https://github.com/kyliemshinn
-LinkedIn: https://www.linkedin.com/in/kylie-shinn-18b0301b7/
+* Github: https://github.com/kyliemshinn
+* LinkedIn: https://www.linkedin.com/in/kylie-shinn-18b0301b7/
 
 
 ## License
