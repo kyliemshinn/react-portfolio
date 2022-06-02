@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kyliemshinn/react-portfolio",
+  "homepage": "https://kyliemshinn.github.io/react-portfolio",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
@@ -11,7 +11,6 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.1.3",
     "dotenv": "^16.0.1",
-    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
@@ -44,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
