@@ -90,9 +90,16 @@
 }
 
 /* footer styling */
-.footer {
+.ksfooter {
   margin: 50px;
   width: 100%;
+  padding: 10px;
+}
+
+.social-link {
+  padding: 10px;
+  color: rgb(69, 65, 66);
+  text-decoration: none;
 }
 
 /* add drop down for menu at specific breakpoint */
