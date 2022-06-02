@@ -49,7 +49,7 @@ function Contact() {
   };
 
     return (
-      <div style={styles.bg} className="col d-flex justify-content-center">
+      <div id="contact" style={styles.bg} className="col d-flex justify-content-center">
         <div style={styles.card}>
           <form>
             <div className="mb-3">

@@ -21,7 +21,7 @@ const styles = {
 
 function Resume() {
     return (
-      <div style={styles.card}>
+      <div id="resume" style={styles.card}>
         <div style={styles.heading}>For More Work Information, Navigate To My <a id="resumeLink" href={Resumepdf}> Resume!</a> 
         </div>
       </div>
