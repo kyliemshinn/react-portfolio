@@ -2,13 +2,8 @@
 #navBar {
   margin: 50px;
   font-size: medium;
-  background-color: #e6d4e6;
+  background-color: #3e3e3e;
   padding: 35px;
-}
-
-.logo {
-  width: 150px;
-  height: 150px;
 }
 
 /* styling for About Section */
@@ -78,7 +73,7 @@
 
 /* resume stylings */
 #resumeLink {
-  color: rgb(248, 213, 245);
+  color: rgb(60, 59, 60);
   font-weight: bold;
 }
 
@@ -100,6 +95,62 @@
   padding: 10px;
   color: rgb(69, 65, 66);
   text-decoration: none;
+}
+
+/* main card  */
+#mainCard {
+  color: grey;
+  background: linear-gradient(to right, #0d0c0d 0%, #4b4b4b 100%);
+  height: 100vh;
+}
+
+#sky {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#shootingstars {
+  margin: 0;
+  padding: 0;
+  width: 150vh;
+  height: 100vw;
+  position: fixed;
+  overflow: hidden;
+  transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%))
+    rotate(120deg);
+}
+
+.wish {
+  height: 2px;
+  top: 300px;
+  width: 100px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  background-color: white;
+  position: absolute;
+  background: linear-gradient(-45deg, white, rgba(0, 0, 255, 0));
+  filter: drop-shadow(0 0 6px white);
+  overflow: hidden;
+}
+.mainTxt {
+  text-align: center;
+  font-weight: 700;
+  font-size: 75px;
+  padding-top: 300px;
+}
+.mainSubTxt {
+  text-align: center;
+  font-weight: 700;
+  font-size: 75px;
+}
+#root {
+  display: block;
+  justify-content: center;
 }
 
 /* add drop down for menu at specific breakpoint */

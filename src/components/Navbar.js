@@ -24,46 +24,12 @@ function Navbar() {
             Resume
           </a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link link-info" href="#contact">
             Contact
           </a>
-        </li>
+        </li> */}
       </ul>
-
-      {/* <div class="dropdown">
-        <button
-          className="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton1"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Dropdown button
-        </button>
-        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li>
-            <a className="dropdown-item" href="#about">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#contact">
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#resume">
-              Resume
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 }

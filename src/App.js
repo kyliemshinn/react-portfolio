@@ -3,8 +3,8 @@ import Navbar from './components/Navbar';
 import AboutMe from './components/Aboutme';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import MainCard from './components/MainCard'
 import './style.css';
 
 //may need to link css sheet
@@ -14,10 +14,10 @@ function App() {
   return (
     <div>
       <Navbar />
-      <AboutMe />
+      <MainCard />
       <Portfolio />
+      <AboutMe />
       <Resume />
-      <Contact />
       <Footer />
     </div>
   );
