@@ -5,23 +5,60 @@ import EmpManage from "../images/empmanage.png";
 import WeatherIcon from "../images/weathericon.jpg";
 import ReadmeIcon from "../images/readmeicon.webp";
 import DayPlanner from "../images/dayplanner.jpg";
+import Balloon from "../images/balloon.jpg";
 import "../style.css";
 
 const styles = {
   cards: {
-    width: "18 rem",
+    width: "18 rem"
   },
   buttons: {
     backgroundColor: "pink",
-    border: "pink",
-  },
+    border: "pink"
+  }
 };
 
 function Portfolio() {
   return (
     <div id="portfolioCards">
       <div className="card projectCard" style={styles.cards}>
-        <img src={Gitpro} className="card-img-top project-image" alt="GitPro"></img>
+        <img
+          src={Balloon}
+          className="card-img-top project-image"
+          alt="adventure book"
+        ></img>
+        <div className="card-body">
+          <h3 className="card-title">Adventure Book</h3>
+          <p className="card-text">
+            A web application for travelers to use to get more personalized
+            recommendations from real, like-minded people who have experienced
+            the places you want to go and the activities you want to do. Get off
+            the beaten path, discover hidden gems, live like the locals do.
+            Because Google and Trip Advisor don’t always know it all.
+          </p>
+          <h4>Technologies Used:</h4>
+          <p>
+            Concurrently | dotenv | nodemon | React Image Carousel | bcrypt |
+            Apollo Server/Client | JavaScript | HTML5 | CSS | GraphQL | BingMaps
+            | Cloudinary | ReactJS | NodeJS | JWT | Express | Tailwind CSS |
+            Font Awesome | daisyUI | React Router | animeJS | Mongoose 
+          </p>
+          <a
+            style={styles.buttons}
+            href="https://github.com/kyliemshinn/adventure-book"
+            className="btn btn-primary"
+          >
+            Check It Out!
+          </a>
+        </div>
+      </div>
+
+      <div className="card projectCard" style={styles.cards}>
+        <img
+          src={Gitpro}
+          className="card-img-top project-image"
+          alt="GitPro"
+        ></img>
         <div className="card-body">
           <h3 className="card-title">Git Productive</h3>
           <p className="card-text">
@@ -48,7 +85,11 @@ function Portfolio() {
       </div>
 
       <div className="card projectCard" style={styles.cards}>
-        <img src={Pethub} className="card-img-top project-image" alt="Pethub"></img>
+        <img
+          src={Pethub}
+          className="card-img-top project-image"
+          alt="Pethub"
+        ></img>
         <div className="card-body">
           <h3 className="card-title">PetHub</h3>
           <p className="card-text">
@@ -86,9 +127,7 @@ function Portfolio() {
             bulk of the card's content.
           </p>
           <h4>Technologies Used:</h4>
-          <p>
-            NodeJS | Javascript | MySQL | console.table | Inquirer
-          </p>
+          <p>NodeJS | Javascript | MySQL | console.table | Inquirer</p>
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/employee-tracker"
@@ -115,9 +154,7 @@ function Portfolio() {
             days.
           </p>
           <h4>Technologies Used:</h4>
-          <p>
-           HTML | CSS | JavaScript
-          </p>
+          <p>HTML | CSS | JavaScript</p>
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/weather-dashboard"
