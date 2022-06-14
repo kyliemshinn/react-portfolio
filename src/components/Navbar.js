@@ -1,4 +1,5 @@
 import React from "react";
+import  "../style.css";
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
       <ul className="nav justify-content-end">
         <li className="nav-item">
           <a
-            className="nav-link active link-info"
+            className="nav-link active link-info links"
             aria-current="page"
             href="./components/Aboutme"
           >
@@ -15,20 +16,15 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link link-info" href="#about">
+          <a className="nav-link link-info links" href="#about">
             Portfolio
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link link-info" href="#resume">
+          <a className="nav-link link-info links" href="#resume">
             Resume
           </a>
         </li>
-        {/* <li className="nav-item">
-          <a className="nav-link link-info" href="#contact">
-            Contact
-          </a>
-        </li> */}
       </ul>
     </div>
   );

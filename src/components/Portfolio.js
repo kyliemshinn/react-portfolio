@@ -13,8 +13,9 @@ const styles = {
     width: "18 rem"
   },
   buttons: {
-    backgroundColor: "pink",
-    border: "pink"
+    backgroundColor: "rgb(245, 245, 187)",
+    border: "rgb(245, 245, 187)",
+    color: "black"
   }
 };
 

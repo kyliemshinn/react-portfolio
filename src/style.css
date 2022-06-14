@@ -5,7 +5,9 @@
   background-color: #3e3e3e;
   padding: 35px;
 }
-
+.links {
+  color: rgb(245, 245, 187);
+}
 /* styling for About Section */
 .about {
   height: 100vh;
@@ -17,7 +19,7 @@
   padding-bottom: 5px;
 }
 .about-bg {
-  background-color: #d5a2d3;
+  background-color: #3e3e3e;
   text-align: center;
 }
 
@@ -54,7 +56,7 @@
 }
 /* portfolio styling */
 #portfolioCards {
-  background-color: #e6d4e6;
+  background-color: black;
   padding: 8px;
   font-size: large;
 }
@@ -73,14 +75,14 @@
 
 /* resume stylings */
 #resumeLink {
-  color: rgb(60, 59, 60);
+  color: rgb(245, 245, 187);
   font-weight: bold;
 }
 
 /* contact list styling */
 .link-info {
   font-size: large;
-  color: black;
+  color: rgb(178, 176, 176);
   margin: 0 auto;
 }
 
@@ -99,7 +101,7 @@
 
 /* main card  */
 #mainCard {
-  color: grey;
+  color: rgb(245, 245, 187);
   background: linear-gradient(to right, #0d0c0d 0%, #4b4b4b 100%);
   height: 100vh;
 }

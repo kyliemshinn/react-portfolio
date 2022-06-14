@@ -5,10 +5,10 @@ const styles = {
     card: {
       margin: 50,
       padding: 50,
-      background: '#d5a2d3',
+      background: '#3e3e3e',
     },
     heading: {
-      background: '#d5a2d3',
+      background: '#3e3e3e',
       minHeight: 50,
       lineHeight: 3.5,
       color: 'white',
