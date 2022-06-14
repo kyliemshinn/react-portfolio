@@ -7,6 +7,10 @@ https://kyliemshinn.github.io/react-portfolio/
 
 This portfolio project showcases all the relevant projects and work experience through my resume I have thus far with web development. I chose my strongest projects that show the progression in web development I have made at this point. The theme of this project was meant to be simple and sweet, with a minimalistic feel- a style that expresses me and my style in general. I wanted to switch it up a bit from past themes of recent project to work with different colors. I created my own logo through Canva that I have as my title link. I wanted to keep the navigation bar very simple so I decided to leave the logo off of the site.  This is designed to be an easy to use, simpler web portfolio that is showcased on a single page.
 
+The video below shows the layout of the website.
+
+![walkthrough of site](./src/images/reactportfoliogif.gif)
+
 ## Features
 
 About Me Section
@@ -27,8 +31,8 @@ Bootstrap
 
 Kylie Shinn
 
-Github: https://github.com/kyliemshinn
-LinkedIn: https://www.linkedin.com/in/kylie-shinn-18b0301b7/
+* Github: https://github.com/kyliemshinn
+* LinkedIn: https://www.linkedin.com/in/kylie-shinn-18b0301b7/
 
 
 ## License
