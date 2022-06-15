@@ -10,13 +10,13 @@ function Navbar() {
           <a
             className="nav-link active link-info links"
             aria-current="page"
-            href="./components/Aboutme"
+            href="#about"
           >
             About Me
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link link-info links" href="#about">
+          <a className="nav-link link-info links" href="#portfolioCards">
             Portfolio
           </a>
         </li>

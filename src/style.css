@@ -1,10 +1,13 @@
 /* styling for nav bar */
 #navBar {
-  margin: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
   font-size: medium;
-  background-color: #3e3e3e;
-  padding: 35px;
+  background-color: rgb(46, 46, 46);
+  padding: 50px;
 }
+
 .links {
   color: rgb(245, 245, 187);
 }
@@ -86,19 +89,6 @@
   margin: 0 auto;
 }
 
-/* footer styling */
-.ksfooter {
-  margin: 50px;
-  width: 100%;
-  padding: 10px;
-}
-
-.social-link {
-  padding: 10px;
-  color: rgb(69, 65, 66);
-  text-decoration: none;
-}
-
 /* main card  */
 #mainCard {
   color: rgb(245, 245, 187);
@@ -142,17 +132,33 @@
 .mainTxt {
   text-align: center;
   font-weight: 700;
-  font-size: 75px;
+  font-size: 100px;
   padding-top: 300px;
 }
 .mainSubTxt {
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 75px;
+  font-style: italic;
 }
 #root {
   display: block;
   justify-content: center;
 }
 
-/* add drop down for menu at specific breakpoint */
+/* footer styling */
+.ksfooter {
+  margin: 50px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(46, 46, 46);
+}
+.footer {
+  background-color: rgb(46, 46, 46);
+}
+.social-link {
+  padding: 10px;
+  color: rgb(130, 130, 129);
+  text-decoration: none;
+}
+
