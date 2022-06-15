@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.de57dbd4.css",
+    "main.js": "/react-portfolio/static/js/main.9238096c.js",
+    "static/media/kylieresume22.pdf": "/react-portfolio/static/media/kylieresume22.74c7d96b58b6416a8f1b.pdf",
+    "static/media/kylieclyde.jpg": "/react-portfolio/static/media/kylieclyde.4086df72b5c2be484e16.jpg",
+    "static/media/balloon.jpg": "/react-portfolio/static/media/balloon.6c1bbccaeaea84227d61.jpg",
+    "static/media/weathericon.jpg": "/react-portfolio/static/media/weathericon.b5ccd17b12f913a2c2cc.jpg",
+    "static/media/gitpro.PNG": "/react-portfolio/static/media/gitpro.5673cb9fccd999477bf2.PNG",
+    "static/media/Capture.PNG": "/react-portfolio/static/media/Capture.c5e403c5db6b90ea02d4.PNG",
+    "static/media/readmeicon.webp": "/react-portfolio/static/media/readmeicon.1197a5022e0fcdf3f29b.webp",
+    "index.html": "/react-portfolio/index.html",
+    "main.de57dbd4.css.map": "/react-portfolio/static/css/main.de57dbd4.css.map",
+    "main.9238096c.js.map": "/react-portfolio/static/js/main.9238096c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de57dbd4.css",
+    "static/js/main.9238096c.js"
+  ]
+}
