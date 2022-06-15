@@ -22,7 +22,7 @@ const styles = {
 function Resume() {
     return (
       <div id="resume" style={styles.card}>
-        <div style={styles.heading}>For More Work Information, Navigate To My <a id="resumeLink" href={Resumepdf}> Resume!</a> 
+        <div style={styles.heading}>For More Work Information, Navigate 🚀 To My <a id="resumeLink" href={Resumepdf}> Resume!</a> 
         </div>
       </div>
     );

@@ -22,12 +22,15 @@ const styles = {
 function Portfolio() {
   return (
     <div id="portfolioCards">
-      <div className="card projectCard" style={styles.cards}>
-        <img
-          src={Balloon}
-          className="card-img-top project-image"
-          alt="adventure book"
-        ></img>
+      <h1 className="">PROJECTS</h1>
+      <div className="card projectCard d-flex flex-row" style={styles.cards}>
+        <div className="p-3">
+          <img
+            src={Balloon}
+            className="card-img-top project-image mt-5"
+            alt="adventure book"
+          ></img>
+        </div>
         <div className="card-body">
           <h3 className="card-title">Adventure Book</h3>
           <p className="card-text">
@@ -42,7 +45,7 @@ function Portfolio() {
             Concurrently | dotenv | nodemon | React Image Carousel | bcrypt |
             Apollo Server/Client | JavaScript | HTML5 | CSS | GraphQL | BingMaps
             | Cloudinary | ReactJS | NodeJS | JWT | Express | Tailwind CSS |
-            Font Awesome | daisyUI | React Router | animeJS | Mongoose 
+            Font Awesome | daisyUI | React Router | animeJS | Mongoose
           </p>
           <a
             style={styles.buttons}
@@ -54,12 +57,14 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card projectCard" style={styles.cards}>
+      <div className="card projectCard d-flex flex-row" style={styles.cards}>
+      <div className="p-3">
         <img
           src={Gitpro}
-          className="card-img-top project-image"
+          className="card-img-top project-image mt-5"
           alt="GitPro"
         ></img>
+        </div>
         <div className="card-body">
           <h3 className="card-title">Git Productive</h3>
           <p className="card-text">
@@ -85,12 +90,14 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card projectCard" style={styles.cards}>
+      <div className="card projectCard d-flex flex-row" style={styles.cards}>
+      <div className="p-3">
         <img
           src={Pethub}
-          className="card-img-top project-image"
+          className="card-img-top project-image mt-5"
           alt="Pethub"
         ></img>
+        </div>
         <div className="card-body">
           <h3 className="card-title">PetHub</h3>
           <p className="card-text">
@@ -115,12 +122,14 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card projectCard" style={styles.cards}>
+      <div className="card projectCard d-flex flex-row" style={styles.cards}>
+      <div className="p-3">
         <img
           src={EmpManage}
-          className="card-img-top project-image"
+          className="card-img-top project-image mt-5"
           alt="Employee Management"
         ></img>
+        </div>
         <div className="card-body">
           <h3 className="card-title">Employee Management System</h3>
           <p className="card-text">
@@ -139,12 +148,14 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card projectCard" style={styles.cards}>
+      <div className="card projectCard d-flex flex-row" style={styles.cards}>
+      <div className="p-3">
         <img
           src={WeatherIcon}
-          className="card-img-top project-image"
+          className="card-img-top project-image mt-5"
           alt="Weather Icon"
         ></img>
+        </div>
         <div className="card-body">
           <h3 className="card-title">Weather Dashboard</h3>
           <p className="card-text">
@@ -166,12 +177,14 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card projectCard" style={styles.cards}>
+      <div className="card projectCard d-flex flex-row" style={styles.cards}>
+      <div className="p-3">
         <img
           src={ReadmeIcon}
-          className="card-img-top project-image"
+          className="card-img-top project-image mt-5"
           alt="ReadMe Icon"
         ></img>
+        </div>
         <div className="card-body">
           <h3 className="card-title">README Generator</h3>
           <p className="card-text">
@@ -193,12 +206,14 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="card projectCard" style={styles.cards}>
+      <div className="card projectCard d-flex flex-row mb-4" style={styles.cards}>
+      <div className="p-3">
         <img
           src={DayPlanner}
-          className="card-img-top project-image"
+          className="card-img-top project-image mt-5"
           alt="Day Planner Logo"
         ></img>
+        </div>
         <div className="card-body">
           <h3 className="card-title">Day Planner</h3>
           <p className="card-text">

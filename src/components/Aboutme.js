@@ -15,9 +15,8 @@ function Aboutme() {
         </div>
         <div className="col-md bio-card">
           <h3 className="about-title mt-4">
-            KYLIE SHINN
+          ABOUT ME
           </h3>
-          <h4 className="about-title">Full Stack Web Developer</h4>
           <div className="row bioText">
             <p className="bio">
             Hello! I am a full stack web developer leveraging a Speech Therapy
@@ -37,6 +36,7 @@ function Aboutme() {
           page and how the browser renders code, and understanding in the basics
          of troubleshooting and enhancing legacy code. I look forward to
            hearing from you!
+          
            </p>
             <div className="bio">
               <span className="skills">

@@ -20,6 +20,7 @@
   text-align: center;
   font-size: 50px;
   padding-bottom: 5px;
+  padding-top: 50px;
 }
 .about-bg {
   background-color: #3e3e3e;
@@ -44,6 +45,9 @@
   padding: 10px;
   margin: auto;
   font-size: medium;
+}
+.bio-card {
+  background-color: #dfdfde;
 }
 
 .skills {
