@@ -3,7 +3,7 @@ import "../style.css";
 
 function Footer() {
   return (
-    <nav className="navbar navbar-light footer">
+    <nav className="navbar navbar-light footer" id="contact">
       <div className="container-fluid ksfooter col d-flex justify-content-center">
         <a className="social-link" href="https://www.linkedin.com/in/kylie-shinn-18b0301b7/">
           <svg

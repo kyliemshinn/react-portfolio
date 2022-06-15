@@ -27,6 +27,11 @@ function Navbar() {
             Resume
           </a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link link-info links" href="#contact" >
+            Contact
+          </a>
+        </li>
       </ul>
     </div>
   );
