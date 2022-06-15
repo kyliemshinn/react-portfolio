@@ -1,4 +1,5 @@
 import React from "react";
+import ResumePDF from "../components/resumepdf/kylie-shinn-resume.pdf";
 import  "../style.css";
 
 function Navbar() {
@@ -21,7 +22,8 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link link-info links" href="#resume">
+          <a className="nav-link link-info links" href={ResumePDF} target="_blank"
+            rel="noreferrer">
             Resume
           </a>
         </li>

@@ -50,6 +50,8 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/adventure-book"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary"
           >
             Check It Out!
@@ -83,6 +85,8 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/git-productive"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary"
           >
             Check It Out!
@@ -115,6 +119,8 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/pethub"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary"
           >
             Check It Out!
@@ -141,6 +147,8 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/employee-tracker"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary"
           >
             Check It Out!
@@ -170,6 +178,8 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/weather-dashboard"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary"
           >
             Check It Out!
@@ -199,6 +209,8 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/readme-generator"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary"
           >
             Check It Out!
@@ -227,6 +239,8 @@ function Portfolio() {
           <a
             style={styles.buttons}
             href="https://github.com/kyliemshinn/Work-day-scheduler"
+            target="_blank"
+            rel="noreferrer"
             className="btn btn-primary"
           >
             Check It Out!
