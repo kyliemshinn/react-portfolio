@@ -22,7 +22,7 @@ const styles = {
 function Portfolio() {
   return (
     <div id="portfolioCards">
-      <h1 className="">PROJECTS</h1>
+      <h1 className="text-center p-2" style={{color: "khaki"}}>PROJECTS</h1>
       <div className="card projectCard d-flex flex-row" style={styles.cards}>
         <div className="p-3">
           <img
