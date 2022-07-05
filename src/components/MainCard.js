@@ -104,8 +104,8 @@ function MainCard() {
         <StarrySky />
 
     <div id="root">
-        <h1 className="mainTxt">Kylie Shinn</h1>
-        <h2 className="mainSubTxt">Full Stack Web Development</h2>
+        <h1 className="mainTxt">Hi, I'm Kylie Shinn.</h1>
+        <h2 className="mainSubTxt">A Front End Web Developer located in San Francisco, CA.</h2>
     </div>
     </div>
   );

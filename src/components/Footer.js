@@ -4,12 +4,18 @@ import "../style.css";
 function Footer() {
   return (
     <nav className="navbar navbar-light footer" id="contact">
+      <div className="contactHeader col d-flex justify-content-center p-20">
+        <h1>You Can Reach Me At One Of The Follow Social Links!</h1>
+      </div>
       <div className="container-fluid ksfooter col d-flex justify-content-center">
-        <a className="social-link" href="https://www.linkedin.com/in/kylie-shinn-18b0301b7/">
+        <a
+          className="social-link"
+          href="https://www.linkedin.com/in/kylie-shinn-18b0301b7/"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="65"
+            height="65"
             fill="currentColor"
             className="bi bi-linkedin"
             viewBox="0 0 20 20"
@@ -21,8 +27,8 @@ function Footer() {
         <a href="https://github.com/kyliemshinn" className="social-link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="65"
+            height="65"
             fill="currentColor"
             className="bi bi-github"
             viewBox="0 0 20 20"
@@ -31,11 +37,14 @@ function Footer() {
           </svg>
         </a>
 
-        <a className="social-link" href="https://mail.google.com/mail/u/2/#inbox?compose=VpCqJZNPkSvqRStsWDVDpKJRzmVPNVsWCpDzVMTBpxDsSbWgqtBjqmltthrMHzrJSNbfKZQ">
+        <a
+          className="social-link"
+          href="https://mail.google.com/mail/u/2/#inbox?compose=VpCqJZNPkSvqRStsWDVDpKJRzmVPNVsWCpDzVMTBpxDsSbWgqtBjqmltthrMHzrJSNbfKZQ"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="65"
+            height="65"
             fill="currentColor"
             className="bi bi-envelope-paper-fill"
             viewBox="0 0 20 20"
