@@ -84,6 +84,9 @@
 #resumeLink {
   color: rgb(252, 252, 196);
   font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  margin-left: 10px;
 }
 
 /* contact list styling */
@@ -137,6 +140,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 100px;
+  z-index: 1;
   padding-top: 300px;
 }
 .mainSubTxt {

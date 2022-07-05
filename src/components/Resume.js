@@ -1,6 +1,5 @@
 import React from "react";
-import Resumepdf from "./resumepdf/kylie-shinn-resume.pdf";
-
+import "../style.css";
 const styles = {
   card: {
     margin: 50,
@@ -23,10 +22,10 @@ function Resume() {
   return (
     <div id="resume" style={styles.card}>
       <div style={styles.heading}>
-        For More Work Information, Navigate 🚀 To My{" "}
-        <a id="resumeLink" href={Resumepdf} target="_blank" rel="noreferrer">
+        For More Work Information, Navigate 🚀 To My {" "}
+        <a id="resumeLink" href="https://docs.google.com/document/d/1VYmE3GJyOnqfuyGD1E5rqR3FgrTLbtxKUqx3ZISp4Pw/edit" target="_blank" rel="noreferrer">
           {" "}
-          Resume!
+             Resume!
         </a>
       </div>
     </div>
