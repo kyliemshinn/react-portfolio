@@ -54,7 +54,16 @@ function Portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Check It Out!
+            Repository
+          </a>
+          <a
+            style={styles.buttons}
+            href="https://book-adventure.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary m-3"
+          >
+            Deployed Link
           </a>
         </div>
       </div>
@@ -89,7 +98,16 @@ function Portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Check It Out!
+            Repository
+          </a>
+          <a
+            style={styles.buttons}
+            href="https://git-productive.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary m-3"
+          >
+            Deployed Link
           </a>
         </div>
       </div>
@@ -123,7 +141,16 @@ function Portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Check It Out!
+            Repository
+          </a>
+          <a
+            style={styles.buttons}
+            href="https://cmwschroeder.github.io/pethub/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary m-3"
+          >
+            Deployed Link
           </a>
         </div>
       </div>
@@ -151,7 +178,7 @@ function Portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Check It Out!
+            Repository
           </a>
         </div>
       </div>
@@ -182,7 +209,16 @@ function Portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Check It Out!
+            Repository
+          </a>
+          <a
+            style={styles.buttons}
+            href="https://kyliemshinn.github.io/weather-dashboard/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary m-3"
+          >
+            Deployed Link
           </a>
         </div>
       </div>
@@ -213,7 +249,7 @@ function Portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Check It Out!
+            Repository
           </a>
         </div>
       </div>
@@ -243,12 +279,20 @@ function Portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Check It Out!
+            Repository
+          </a>
+          <a
+            style={styles.buttons}
+            href="https://kyliemshinn.github.io/Work-day-scheduler/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary m-3"
+          >
+            Deployed Link
           </a>
         </div>
       </div>
     </div>
   );
 }
-
 export default Portfolio;
