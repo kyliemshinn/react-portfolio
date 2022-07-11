@@ -23,14 +23,18 @@
   padding-top: 50px;
 }
 .about-bg {
+  display: block;
+  align-items: center;
   background-color: #3e3e3e;
   text-align: center;
+  z-index: 100;
 }
 
 .about-photo {
   margin-top: 10vh;
   margin-bottom: 10vh;
-  width: 40vh;
+  width: 60vh;
+  height: 90vh;
 }
 
 .bioText {
@@ -66,6 +70,7 @@
   background-color: black;
   padding: 8px;
   font-size: large;
+  z-index: 100;
 }
 
 .projectCard {
@@ -140,23 +145,14 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /* right: 50%; */
   bottom: 50%;
   transform: translate(-50%, -50%);
-  /* -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%); */
-  /* -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); */
-  /* z-index: 100; */
 }
 .mainTxt {
   text-align: center;
   font-weight: 700;
   font-size: 80px;
-  /* z-index: 1; */
-  /* padding-top: 300px; */
   margin: auto;
-  /* height: 70vh; */
 }
 .mainSubTxt {
   text-align: center;

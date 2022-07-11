@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../images/kylieclyde.jpg"
+import Photo from "../images/kylieclyde.jpg";
 import "../style.css";
 
 function Aboutme() {
@@ -7,41 +7,32 @@ function Aboutme() {
     <div id="about">
       <div className="row">
         <div className="col-md about-bg">
-          <img
-            src={Photo}
-            className="about-photo img-fluid"
-            alt="Me"
-          ></img>
+          <img src={Photo} className="about-photo img-fluid" alt="Me"></img>
         </div>
         <div className="col-md bio-card">
-          <h3 className="about-title mt-4">
-          ABOUT ME
-          </h3>
+          <h3 className="about-title mt-4">ABOUT ME</h3>
           <div className="row bioText">
             <p className="bio">
-            Hello! I am a full stack web developer leveraging a Speech Therapy
-          background to build a more intuitive user experience on the web. I
-         recently earned a certificate in full stack development from the
-          University of Berkeley Extension School, with newly developed skills
-          in HTML, JavaScript, CSS, React.js, MySQL, among many others. I have
-           been known as an innovative problem solver passionate about developing
-          apps, with proven success providing technical oversight to day-to-day
-           operations. I leverage my current skill set to provide a better
-        experience for both customers and partners by exhibiting excellent
-          communication skills and an ability to take initiative to prioritize
-           daily tasks. My aim is to best engage my audience for an impactful
-          user experience with each project I begin. I have the ability to
-           deploy static and dynamic websites, implement complex logical
-           conditions to meet objectives, communicate the basics of serving a web
-          page and how the browser renders code, and understanding in the basics
-         of troubleshooting and enhancing legacy code. I look forward to
-           hearing from you!
-          
-           </p>
+              Hello! I am a full stack web developer leveraging a Speech Therapy
+              background to build a more intuitive user experience on the web. I
+              recently earned a certificate in Full Stack Development from the
+              University of Berkeley Extension School, with newly developed
+              skills in MERN Stack. I have been known as an
+              innovative problem solver passionate about developing apps, with
+              proven success providing technical oversight to day-to-day
+              operations. I leverage my current skill set to provide a better
+              experience for both customers and partners by exhibiting excellent
+              communication skills and an ability to take initiative to
+              prioritize daily tasks. My aim is to best engage my audience for
+              an impactful user experience with each project I begin. I have the
+              ability to deploy static and dynamic websites, implement complex
+              logical conditions to meet objectives, communicate the basics of
+              serving a web page and how the browser renders code, and
+              understanding in the basics of troubleshooting and enhancing
+              legacy code. I look forward to hearing from you!
+            </p>
             <div className="bio">
-              <span className="skills">
-                Some Skills Include:
-              </span>
+              <span className="skills">Some Skills Include:</span>
               <ul className=" skillList">
                 <li>ReactJS</li>
                 <li>JavaScript</li>
