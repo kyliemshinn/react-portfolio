@@ -9,7 +9,7 @@ This portfolio project showcases all the relevant projects and work experience t
 
 The video below shows the layout of the website.
 
-![walkthrough of site](./src/images/reactportfoliogif.gif)
+<!-- ![walkthrough of site](./src/images/reactportfoliogif.gif) -->
 
 ## Features
 

@@ -110,10 +110,12 @@ function MainCard() {
       <StarrySky />
 
       <div id="root">
+        <div className="mainCardHolder">
         <h1 className="mainTxt">Hi, I'm Kylie Shinn.</h1>
         <h2 className="mainSubTxt">
           A Front End Web Developer located in San Francisco, CA.
         </h2>
+        </div>
       </div>
     </div>
   );

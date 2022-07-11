@@ -6,7 +6,6 @@
   font-size: medium;
   background-color: rgb(46, 46, 46);
   padding: 50px;
-  
 }
 
 .links {
@@ -137,12 +136,27 @@
   filter: drop-shadow(0 0 6px white);
   overflow: hidden;
 }
+.mainCardHolder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* right: 50%; */
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  /* -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%); */
+  /* -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  /* z-index: 100; */
+}
 .mainTxt {
   text-align: center;
   font-weight: 700;
-  font-size: 100px;
-  z-index: 1;
-  padding-top: 300px;
+  font-size: 80px;
+  /* z-index: 1; */
+  /* padding-top: 300px; */
+  margin: auto;
+  /* height: 70vh; */
 }
 .mainSubTxt {
   text-align: center;
@@ -175,4 +189,3 @@
   color: rgb(130, 130, 129);
   text-decoration: none;
 }
-
