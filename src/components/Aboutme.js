@@ -4,7 +4,7 @@ import "../style.css";
 
 function Aboutme() {
   return (
-    <div id="about">
+    <div id="about" className=" d-flex align-items-center justify-content-center">
       <div className="row">
         <div className="col-md about-bg">
           <img src={Photo} className="about-photo img-fluid" alt="Me"></img>
@@ -17,7 +17,7 @@ function Aboutme() {
               background to build a more intuitive user experience on the web. I
               recently earned a certificate in Full Stack Development from the
               University of Berkeley Extension School, with newly developed
-              skills in MERN Stack. I have been known as an
+              skills in MERN. I have been known as an
               innovative problem solver passionate about developing apps, with
               proven success providing technical oversight to day-to-day
               operations. I leverage my current skill set to provide a better

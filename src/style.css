@@ -74,7 +74,8 @@
 }
 
 .projectCard {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 15px;
   max-width: 80%;
@@ -89,9 +90,7 @@
 #resumeLink {
   color: rgb(252, 252, 196);
   font-weight: bold;
-  position: absolute;
-  z-index: 2;
-  margin-left: 10px;
+  
 }
 
 /* contact list styling */
@@ -105,6 +104,7 @@
 #mainCard {
   color: rgb(245, 245, 187);
   background: linear-gradient(to right, #0d0c0d 0%, #4b4b4b 100%);
+  padding: 15px;
   height: 80vh;
 }
 
@@ -160,6 +160,7 @@
   font-weight: 100;
   font-size: 30px;
   font-style: italic;
+  padding: 6px;
 }
 #root {
   display: block;
@@ -182,6 +183,23 @@
 }
 .social-link {
   padding: 10px;
-  color: rgb(130, 130, 129);
+  color: #828281;
   text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  #mainCard {
+    height: 100vh;
+  }
+  .mainTxt {
+    font-size: 60px;
+  }
+  #resumeLink {
+    /* margin: 0;
+    font-weight: bold;
+    position: absolute;
+    z-index: 5;
+    margin-top: 50px;
+    margin-right: 500px; */
+  }
 }

@@ -20,14 +20,13 @@ const styles = {
 
 function Resume() {
   return (
-    <div id="resume" style={styles.card}>
-      <div style={styles.heading}>
-        For More Work Information, Navigate 🚀 To My {" "}
+    <div id="resume" style={styles.card} className=" d-flex align-items-center justify-content-center">
+      <span style={styles.heading} className="">For More Work Information, Navigate 🚀 To My {" "}
         <a id="resumeLink" href="https://docs.google.com/document/d/1VYmE3GJyOnqfuyGD1E5rqR3FgrTLbtxKUqx3ZISp4Pw/edit" target="_blank" rel="noreferrer">
           {" "}
              Resume!
         </a>
-      </div>
+      </span>
     </div>
   );
 }
